@@ -18,7 +18,13 @@
     "vue": "^3.2.13",
     "vue-axios": "^3.5.2",
     "vue-router": "^4.0.3",
-    "vuex": "^4.0.0"
+    "vuex": "^4.0.0",
+    "@popperjs/core": "^2.11.2",
+    "cors": "^2.8.5",
+    "popper.js": "^1.16.1",
+    "save": "^2.4.0",
+    "swiper": "^7.2.0",
+    "vue3-cookies": "^1.0.6"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -34,7 +40,9 @@
     "eslint-plugin-vue": "^8.7.1",
     "prettier": "^2.8.8",
     "sass": "^1.32.7",
-    "sass-loader": "^12.6.0"
+    "sass-loader": "^12.6.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "bootstrap": "^4.6.1"
   },
   "eslintConfig": {
     "root": true,

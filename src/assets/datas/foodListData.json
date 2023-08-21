@@ -1,0 +1,178 @@
+{
+    "meal": [{
+        "id": 0,
+        "name": "極品豚肉",
+        "price": "1480",
+        "food": "醬燒梅花豬肉、醬燒五花豬、松阪豬肉、去骨雞腿肉",
+        "img": "./static/images/meal/01.jpg"
+    }, {
+        "id": 1,
+        "name": "經典牛肉",
+        "price": "1680",
+        "food": "醬燒霜降牛、鹽蔥五花豬、醬燒牛條肉、松阪豬肉、去骨雞腿肉",
+        "img": "./static/images/meal/02.jpg"
+    }, {
+        "id": 2,
+        "name": "特級牛肉",
+        "price": "1780",
+        "food": "醬燒霜降牛、醬燒五花牛、安格斯去骨牛小排、鹽蔥五花豬、松阪豬肉、去骨雞腿肉",
+        "img": "./static/images/meal/03.jpg"
+    }, {
+        "id": 3,
+        "name": "上等牛肉",
+        "price": "1880",
+        "food": "霜降牛肉、角切牛小排、安格斯去骨牛小排、伊比利梅花豬、松阪豬肉、去骨雞腿肉",
+        "img": "./static/images/meal/04.jpg"
+    }, {
+        "id": 4,
+        "name": "極黑和牛",
+        "price": "2180",
+        "food": "極黑牛霜降、醬燒橫膈膜、和牛肋條、薄牛舌、松阪豬肉、去骨雞腿肉",
+        "img": "./static/images/meal/05.jpg"
+    }],
+
+    "side": [{
+        "id": 0,
+        "type": "前菜",
+        "food": [
+            "嚴選泡菜", "精燉湯品", "主廚沙拉"
+        ]
+    }, {
+        "id": 1,
+        "type": "海鮮",
+        "food": [
+            "新鮮鯖魚", "上等草蝦", "日本干貝"
+        ]
+    }, {
+        "id": 2,
+        "type": "蔬菜",
+        "food": [
+            "日本山藥"
+        ]
+    }, {
+        "id": 3,
+        "type": "米食",
+        "food": [
+            "白米飯", "至燒烤飯糰", "鮭魚烤飯糰"
+        ]
+    }, {
+        "id": 4,
+        "type": "甜點",
+        "food": [
+            "雪花冰", "黑糖凍", "紫米紅豆粥"
+        ]
+    }, {
+        "id": 5,
+        "type": "飲品",
+        "food": [
+            "風味醋飲", "茶六紅茶", "可爾必思"
+        ]
+    }],
+
+    "food": [{
+            "id": 0,
+            "name": "天使紅蝦",
+            "type": "海鮮蔬食",
+            "price": "220",
+            "img": "./static/images/food/1.jpg"
+        },
+        {
+            "id": 1,
+            "name": "日本山藥",
+            "type": "海鮮蔬食",
+            "price": "90",
+            "img": "./static/images/food/2.jpg"
+        },
+        {
+            "id": 2,
+            "name": "主廚沙拉",
+            "type": "開胃小品",
+            "price": "--",
+            "img": "./static/images/food/3.jpg"
+        },
+        {
+            "id": 3,
+            "name": "安格斯去骨牛小排",
+            "type": "套餐主食",
+            "price": "398",
+            "img": "./static/images/food/4.jpg"
+        },
+        {
+            "id": 4,
+            "name": "味噌鮭魚豆腐湯",
+            "type": "開胃小品",
+            "price": "--",
+            "img": "./static/images/food/5.jpg"
+        },
+        {
+            "id": 5,
+            "name": "松阪豬肉",
+            "type": "套餐主食",
+            "price": "220",
+            "img": "./static/images/food/6.jpg"
+        },
+        {
+            "id": 6,
+            "name": "嚴選泡菜",
+            "type": "開胃小品",
+            "price": "--",
+            "img": "./static/images/food/7.jpg"
+        },
+        {
+            "id": 7,
+            "name": "厚切牛舌",
+            "type": "套餐主食",
+            "price": "358",
+            "img": "./static/images/food/8.jpg"
+        },
+        {
+            "id": 8,
+            "name": "紅豆紫米粥",
+            "type": "甜點飲品",
+            "price": "78",
+            "img": "./static/images/food/9.jpg"
+        },
+        {
+            "id": 9,
+            "name": "雪花冰",
+            "type": "甜點飲品",
+            "price": "68",
+            "img": "./static/images/food/10.jpg"
+        },
+        {
+            "id": 10,
+            "name": "醬燒五花牛",
+            "type": "套餐主食",
+            "price": "99",
+            "img": "./static/images/food/11.jpg"
+        },
+        {
+            "id": 11,
+            "name": "茶六肥腸",
+            "type": "套餐主食",
+            "price": "188",
+            "img": "./static/images/food/12.jpg"
+        },
+        {
+            "id": 12,
+            "name": "香菇雞湯",
+            "type": "開胃小品",
+            "price": "--",
+            "img": "./static/images/food/13.jpg"
+        },
+        {
+            "id": 13,
+            "name": "澎湖絲瓜",
+            "type": "海鮮蔬食",
+            "price": "88",
+            "img": "./static/images/food/14.jpg"
+        },
+        {
+            "id": 14,
+            "name": "醬燒橫膈膜",
+            "type": "套餐主食",
+            "price": "468",
+            "img": "./static/images/food/15.jpg"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "shop": [{
+            "id": 0,
+            "shopName": "台中中清店",
+            "address": "台中市北屯區中清路二段1037號",
+            "phone": "04-2425-1138",
+            "img": "./static/images/point/01.jpg",
+            "mapUrl": "https://goo.gl/maps/8EbkeXnRYWrXgHqGA",
+            "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.4690367316184!2d120.65891531494152!3d24.19034728437427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34691702e42a5169%3A0x460036a9f9dc10f7!2z6Iy25YWt54eS6IKJ5aCCKOS4rea4heW6lyk!5e0!3m2!1szh-TW!2stw!4v1644389873270!5m2!1szh-TW!2stw"
+        },
+        {
+            "id": 1,
+            "shopName": "台中朝富店",
+            "address": "台中市西屯區朝富路258號",
+            "phone": "04-2258-7126",
+            "img": "./static/images/point/02.jpg",
+            "mapUrl": "https://goo.gl/maps/1UFa9DETffvibN5d9",
+            "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.2446789498863!2d120.63302601494105!3d24.16315028438757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693df1c46ae6e1%3A0xc1644740de8180d!2z6Iy25YWt54eS6IKJ5aCCKOacneWvjOW6lyk!5e0!3m2!1szh-TW!2stw!4v1644393145354!5m2!1szh-TW!2stw"
+        },
+        {
+            "id": 2,
+            "shopName": "台中公益店",
+            "address": "台中市西區公益路268號",
+            "phone": "04-2328-1167",
+            "img": "./static/images/point/03.jpg",
+            "mapUrl": "https://goo.gl/maps/L8Bn64HWePWfRt2u8",
+            "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.5905257819572!2d120.65218801494088!3d24.15101428439345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693dd8423caa27%3A0x8641159ba314f374!2z6Iy25YWt54eS6IKJ5aCC5YWs55uK5bqX!5e0!3m2!1szh-TW!2stw!4v1644393211214!5m2!1szh-TW!2stw"
+        },
+        {
+            "id": 3,
+            "shopName": "高雄博愛店",
+            "address": "高雄市左營區博愛二路238號",
+            "phone": "07-5566657",
+            "img": "./static/images/point/04.jpg",
+            "mapUrl": "https://goo.gl/maps/AwCfzMePdKwmQmsa9",
+            "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.807993328034!2d120.30115371491242!3d22.660946385137358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e05022a8011d5%3A0xa563d2828127f1c2!2z6Iy25YWt!5e0!3m2!1szh-TW!2stw!4v1644393260072!5m2!1szh-TW!2stw"
+        }
+    ]
+}
