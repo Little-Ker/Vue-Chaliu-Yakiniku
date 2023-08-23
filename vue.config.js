@@ -5,18 +5,9 @@ const { VarletUIResolver } = require('unplugin-vue-components/resolvers')
 
 module.exports = defineConfig({
   transpileDependencies: true,
-  // css: {
-  //   loaderOptions: {
-  //     sass: {
-  //       additionalData: `
-  //         @import "~@/assets/sass/variable.sass"
-  //         @import "~@/assets/sass/main.sass"
-  //         @import "~@/assets/sass/reset.sass"
-  //         @import "~@/assets/sass/icon.sass"
-  //       `,
-  //     },
-  //   },
-  // },
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/Vue-Chaliu-Yakiniku/'
+    : '/',
   configureWebpack: {
     plugins: [
       Components({
