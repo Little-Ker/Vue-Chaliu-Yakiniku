@@ -11,7 +11,7 @@
                     <p v-if="isShowOldTip" :class="{'redTip':isShowOldTip}" class="tip">*舊密碼輸入錯誤</p>
                     <div class="formBox d-flex flex-direction-column">
                         <label for="editNewPwd" class="colLabel">新密碼</label>
-                        <input v-model="newPwd" type="password" id="newPwd" minlength="5" maxlength="10" autoComplete="off" placeholder="請輸入至少5個字元" class="form-control" required @keydown="keydownNull($event)" @focus="focusInputFn" @blur="blurInputFn">
+                        <input id="newPwd" v-model="newPwd" type="password" minlength="5" maxlength="10" autoComplete="off" placeholder="請輸入至少5個字元" class="form-control" required @keydown="keydownNull($event)" @focus="focusInputFn" @blur="blurInputFn">
                     </div>
                     <div :class="{'redTip': isShowNewTip}" class="formBox d-flex flex-direction-column">
                         <label for="editCheckPwd" class="colLabel">確認新密碼</label>
@@ -33,6 +33,11 @@
 </template>
 
 <script>
+import {
+  useCookies 
+} from 'vue3-cookies'
+const { cookies } = useCookies()
+
 export default {
   data() {
     return {
@@ -86,6 +91,7 @@ export default {
     },
     updatePwdSucFn() {
       this.$store.dispatch('updateMemberPassword', this.newPwd)
+      cookies.set('pwd', this.newPwd, '6h')
       this.clickCancelBtn()
       // 修改成功訊息
       this.$store.dispatch('updateIsShowNotice', true)
